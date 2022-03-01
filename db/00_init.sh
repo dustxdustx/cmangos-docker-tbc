@@ -61,7 +61,7 @@ mysql -uroot -pmangos tbcrealmd -e 'DELETE FROM `account` WHERE id = "4" LIMIT 1
 
 # Run install scripy
 cd /tmp/db
-./InstallFullDB.sh
+./InstallFullDB.sh -World
 
 # Cleanup
 cd /
